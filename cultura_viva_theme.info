@@ -1,0 +1,33 @@
+name = Cultura Viva Theme
+description = Please provide a description for your theme.
+base theme = om_verde_chile
+screenshot = screenshot.png
+engine = phptemplate
+core = 7.x
+
+; ========================================
+; Stylesheets
+; ========================================
+stylesheets[all][] = css/cultura-viva-theme.normalize.css
+stylesheets[all][] = css/cultura-viva-theme.hacks.css
+stylesheets[all][] = css/cultura-viva-theme.styles.css
+stylesheets[all][] = css/cultura-viva-theme.no-query.css
+
+; ========================================
+; Scripts
+; ========================================
+scripts[] = js/cultura-viva-theme.behaviors.js
+
+; ========================================
+; Regions
+; ========================================
+regions[principal] = Barra Superior
+regions[branding] = Marca
+regions[header] = Encabezado
+regions[navigation] = Barra de Navegación
+regions[highlighted] = Remarcado
+regions[help] = Ayuda
+regions[slider] = Slider
+regions[content] = Contenido
+regions[sidebar_first] = Barra Lateral
+regions[footer] = Footer
