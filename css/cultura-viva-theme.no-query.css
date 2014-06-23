@@ -1,5 +1,63 @@
+/* No files to import found in abstractions/**\/* */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/base\/_media\.scss}line{font-family:\000031}}
 img, media {
-  max-width: 100%;
-}
+  max-width: 100%; }
 
-/* No files to import found in partials/components/**\/* */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/layouts\/culturaviva\/_branding\.scss}line{font-family:\000031}}
+.l-cv-header {
+  width: 31.91489%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 0%;
+  clear: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/layouts\/culturaviva\/_branding\.scss}line{font-family:\000034}}
+.l-cv-branding {
+  width: 31.91489%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 0%;
+  clear: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/layouts\/culturaviva\/_footer\.scss}line{font-family:\000031}}
+.l-cv-footer {
+  width: 65.95745%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/layouts\/culturaviva\/_header\.scss}line{font-family:\000031}}
+.l-cv-header {
+  width: 31.91489%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 0%;
+  clear: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/layouts\/culturaviva\/_main\.scss}line{font-family:\000031}}
+.l-cv-main {
+  width: 65.95745%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none; }
+
+/*.l-cv-slider{
+    @include grid-span(8,5);  
+}
+.l-cv-content{
+    @include grid-span(8,1);}
+.l-cv-sidebar{
+    @include grid-span(4,9);
+}
+.l-region--destacado{
+    @include grid-span(8,5);
+}
+.l-region--breadcrumb{
+    @include grid-span(8,5);
+}
+*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\0000326}}
+body {
+  margin: 0 5%; }
