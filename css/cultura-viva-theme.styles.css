@@ -82,8 +82,8 @@ body {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\0000344}}
     .l-cv-header .l-cv-branding .l-region.l-region--branding {
       height: 100%;
-      margin: 12% 20%;
-      width: 40%; }
+      margin: 15% auto;
+      width: 60%; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\0000349}}
       .l-cv-header .l-cv-branding .l-region.l-region--branding .presenta-sitename .site-link {
         margin: 0 auto;
@@ -93,8 +93,9 @@ body {
       .l-cv-header .l-cv-branding .l-region.l-region--branding .presenta-sitename .site-name {
         color: #FFFFFF;
         font-size: 2rem;
+        margin: 0 auto;
         text-transform: uppercase; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\0000359}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\0000360}}
       .l-cv-header .l-cv-branding .l-region.l-region--branding .presenta-sitename .slogan {
         color: #0000FF;
         font-size: 0.8rem; }
