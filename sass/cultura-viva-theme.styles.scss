@@ -108,7 +108,8 @@ height: 200px;
 width: 100%;
 text-decoration: none;
 a:active,  a:hover{
-            color: $naranjo;
+            background: $naranjo;
+            color: $azul;
         }
 }
 .naranjo-cvc{
@@ -133,6 +134,17 @@ padding-top: 12px;
 text-decoration: none;
 
 a:active,  a:hover{
-            color: $naranjo;
+            background: $naranjo;
+            color: $azul;
         }
+}
+
+.menu-central-hijo{
+            background: $naranjo;
+            color: $azul;
+        a:active,  a:hover{
+            background: $amarillo;
+            color: $rojo;
+        }            
+
 }
