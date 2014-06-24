@@ -124,7 +124,7 @@ body {
   width: 60%; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\0000392}}
-#formulario-inscripcion {
+.menu-central #formulario-inscripcion {
   position: relative;
   margin: 10px auto;
   padding: 10px;
@@ -143,16 +143,11 @@ body {
   width: 100%;
   text-decoration: none; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003110}}
-  #formulario-inscripcion a:active, #formulario-inscripcion a:hover {
+  .menu-central #formulario-inscripcion a:active, .menu-central #formulario-inscripcion a:hover {
     background: #ff6600;
     color: blue; }
-
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003115}}
-.naranjo-cvc {
-  color: #ff6600; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003119}}
-#convocatoria {
+.menu-central #convocatoria {
   background: white;
   height: 50px;
   width: 100%;
@@ -168,20 +163,40 @@ body {
   vertical-align: middle;
   padding-top: 12px;
   text-decoration: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003136}}
-  #convocatoria a:active, #convocatoria a:hover {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003132}}
+  .menu-central #convocatoria a:active, .menu-central #convocatoria a:hover {
     background: #ff6600;
     color: blue; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003142}}
-.menu-central-hijo {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003138}}
+.menu-central .menu-central-hijo {
   background: #ff6600;
   color: blue;
   margin: 3px;
   padding: 2px;
   border-radius: 0 0 5px 5px;
   text-decoration: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003149}}
-  .menu-central-hijo a:active, .menu-central-hijo a:hover {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003145}}
+  .menu-central .menu-central-hijo a:active, .menu-central .menu-central-hijo a:hover {
     background: yellow;
     color: red; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003151}}
+.naranjo-cvc {
+  color: #ff6600; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003155}}
+.book-navigation__links {
+  background: none repeat scroll 0 0 #ff6600;
+  border-radius: 10px;
+  font-size: 15px;
+  margin: 50px auto;
+  padding: 50px;
+  text-decoration: none;
+  vertical-align: middle; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003163}}
+  .book-navigation__links a {
+    text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003165}}
+    .book-navigation__links a:hover {
+      background: red;
+      border-radius: 10px; }
