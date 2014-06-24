@@ -176,8 +176,12 @@ body {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003142}}
 .menu-central-hijo {
   background: #ff6600;
-  color: blue; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003145}}
+  color: blue;
+  margin: 3px;
+  padding: 2px;
+  border-radius: 0 0 5px 5px;
+  text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003149}}
   .menu-central-hijo a:active, .menu-central-hijo a:hover {
     background: yellow;
     color: red; }
