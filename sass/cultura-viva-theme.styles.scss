@@ -30,7 +30,7 @@ body{
     background: none repeat scroll 0 0 #2566A3;
     clear: none;
     float: left;
-    height: 1000px;
+    height: 1500px;
     margin-left: 0;
     margin-right: -100%;
     position: fixed;
@@ -105,14 +105,11 @@ color:black;
 border-bottom: 4px solid rgb(36, 34, 34);
 border-right: 4px solid rgb(88, 83, 83);
 height: 200px;
-width: 300px;
+width: 100%;
 text-decoration: none;
-a{
-
-        &:hover{
+a:active,  a:hover{
             color: $naranjo;
         }
-}
 }
 .naranjo-cvc{
 	         color: $naranjo;
@@ -121,7 +118,7 @@ a{
 #convocatoria {
 background: white;
 height: 50px;
-width: 300px;
+width: 100%;
 border-radius: 10px;
 color: black;
 border-bottom: 4px solid rgb(36, 34, 34);
@@ -133,10 +130,9 @@ text-decoration: none;
 font-size: 20px;
 vertical-align: middle;
 padding-top: 12px;
-    a{
-    text-decoration: none;
-        &:hover{
+text-decoration: none;
+
+a:active,  a:hover{
             color: $naranjo;
         }
-    }
 }

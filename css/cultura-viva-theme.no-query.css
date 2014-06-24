@@ -67,7 +67,7 @@ body {
   background: none repeat scroll 0 0 #2566A3;
   clear: none;
   float: left;
-  height: 1000px;
+  height: 1500px;
   margin-left: 0;
   margin-right: -100%;
   position: fixed;
@@ -140,21 +140,21 @@ body {
   border-bottom: 4px solid #242222;
   border-right: 4px solid #585353;
   height: 200px;
-  width: 300px;
+  width: 100%;
   text-decoration: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003112}}
-  #formulario-inscripcion a:hover {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003110}}
+  #formulario-inscripcion a:active, #formulario-inscripcion a:hover {
     color: #ff6600; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003117}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003114}}
 .naranjo-cvc {
   color: #ff6600; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003121}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003118}}
 #convocatoria {
   background: white;
   height: 50px;
-  width: 300px;
+  width: 100%;
   border-radius: 10px;
   color: black;
   border-bottom: 4px solid #242222;
@@ -165,10 +165,8 @@ body {
   text-decoration: none;
   font-size: 20px;
   vertical-align: middle;
-  padding-top: 12px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003136}}
-  #convocatoria a {
-    text-decoration: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003138}}
-    #convocatoria a:hover {
-      color: #ff6600; }
+  padding-top: 12px;
+  text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003135}}
+  #convocatoria a:active, #convocatoria a:hover {
+    color: #ff6600; }
