@@ -62,8 +62,8 @@ body{
 }
 }
 .slogan {
-    color: #0000FF;
-    font-size: 0.8rem;
+    color: #0000FF; 
+    font-size: 20px;
     text-align: center;
     a {
     color: blue;
@@ -164,7 +164,7 @@ a{
 }
 
 .book-navigation__links {
-    background: none repeat scroll 0 0 $naranjo;
+    background: none repeat scroll 0 0  #66BDC0;
     border-radius: 10px;
     font-size: 15px;
     margin: 50px auto;
@@ -177,7 +177,7 @@ a{
         text-decoration: none;
         &:hover{
             height: 30px;
-            background: red;
+            background: rgb(147, 147, 219);
             border-radius: 10px;
         }
     }
@@ -197,7 +197,7 @@ background-repeat: no-repeat;
 }
 
 .l-cv-content {
-background: rgba(255, 102, 0,0.7);
+background: rgba(94, 202, 52, 0.7);
 border-radius: 20px;
 padding: 50px;
 border-bottom: 5px solid black;

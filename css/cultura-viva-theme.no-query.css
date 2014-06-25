@@ -102,7 +102,7 @@ body {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\0000364}}
       .l-cv-header .l-cv-branding .l-region.l-region--branding .presenta-sitename .slogan {
         color: #0000FF;
-        font-size: 0.8rem;
+        font-size: 20px;
         text-align: center; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\0000368}}
         .l-cv-header .l-cv-branding .l-region.l-region--branding .presenta-sitename .slogan a {
@@ -195,7 +195,7 @@ body {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003166}}
 .book-navigation__links {
-  background: none repeat scroll 0 0 #ff6600;
+  background: none repeat scroll 0 0  #66BDC0;
   border-radius: 10px;
   font-size: 15px;
   margin: 50px auto;
@@ -210,7 +210,7 @@ body {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003178}}
     .book-navigation__links a:hover {
       height: 30px;
-      background: red;
+      background: #9393db;
       border-radius: 10px; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003186}}
@@ -228,7 +228,7 @@ body {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003199}}
 .l-cv-content {
-  background: rgba(255, 102, 0, 0.7);
+  background: rgba(94, 202, 52, 0.7);
   border-radius: 20px;
   padding: 50px;
   border-bottom: 5px solid black;
