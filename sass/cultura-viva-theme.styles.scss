@@ -197,7 +197,7 @@ background-repeat: no-repeat;
 }
 
 .l-cv-content {
-background: rgb(255, 102, 0,0.7);
+background: rgba(255, 102, 0,0.7);
 border-radius: 20px;
 padding: 50px;
 border-bottom: 5px solid black;
@@ -209,10 +209,13 @@ background: rgba(0, 200, 48, 0.7);
 border-radius: 20px;
 padding: 4px;
 margin: 20px auto;
+height: 40px;
 border-bottom: 4px solid black;
 border-left: 3px solid gray;
 a {
+    height: 30px;
 text-decoration: none;
+vertical-align: middle;
 }
 }
 

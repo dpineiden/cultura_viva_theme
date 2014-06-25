@@ -228,7 +228,7 @@ body {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003199}}
 .l-cv-content {
-  background: rgba(125, 248, 86, 0.7);
+  background: rgba(255, 102, 0, 0.7);
   border-radius: 20px;
   padding: 50px;
   border-bottom: 5px solid black;
@@ -240,13 +240,16 @@ body {
   border-radius: 20px;
   padding: 4px;
   margin: 20px auto;
+  height: 40px;
   border-bottom: 4px solid black;
   border-left: 3px solid gray; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003214}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003215}}
   .l-cv-region--breadcrumb a {
-    text-decoration: none; }
+    height: 30px;
+    text-decoration: none;
+    vertical-align: middle; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003219}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003222}}
 .espacio-tiempo {
   background: palegoldenrod;
   position: absolute;
