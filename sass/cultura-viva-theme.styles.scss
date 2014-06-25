@@ -192,9 +192,16 @@ background: beige;
 
 html {
 font-family: sans-serif;
--webkit-text-size-adjust: 100%;
 -ms-text-size-adjust: 100%;
-background: url('http://www.encuentroculturaviva.cl/sites/default/files/galeria//header_recortado.png');
+background: url(http://www.encuentroculturaviva.cl/sites/default/files/galeria/header_recortado_0.png);
 background-size: 100% auto;
 background-repeat: no-repeat;
+}
+
+.l-cv-content {
+background: rgba(125, 248, 86, 0.7);
+border-radius: 20px;
+padding: 50px;
+border-bottom: 5px solid black;
+border-left: 3px solid gray;
 }
