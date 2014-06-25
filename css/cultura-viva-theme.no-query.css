@@ -1,262 +1,89 @@
-/* No files to import found in abstractions/**\/* */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/base\/_media\.scss}line{font-family:\000031}}
-img, media {
-  max-width: 100%; }
+/*
+Syntax error: wrong number of arguments (4 for 3) for `rgb'
+        on line 200 of /home/david/public_html/sites/all/themes/cultura_viva_theme/sass/cultura-viva-theme.styles.scss
+        from line 5 of /home/david/public_html/sites/all/themes/cultura_viva_theme/sass/cultura-viva-theme.no-query.scss
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/layouts\/culturaviva\/_branding\.scss}line{font-family:\000031}}
-.l-cv-header {
-  width: 31.91489%;
-  float: left;
-  margin-right: -100%;
-  margin-left: 0%;
-  clear: none; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/layouts\/culturaviva\/_branding\.scss}line{font-family:\000034}}
-.l-cv-branding {
-  width: 31.91489%;
-  float: left;
-  margin-right: -100%;
-  margin-left: 0%;
-  clear: none; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/layouts\/culturaviva\/_footer\.scss}line{font-family:\000031}}
-.l-cv-footer {
-  width: 65.95745%;
-  float: right;
-  margin-left: 0;
-  margin-right: 0;
-  clear: none; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/layouts\/culturaviva\/_header\.scss}line{font-family:\000031}}
-.l-cv-header {
-  width: 31.91489%;
-  float: left;
-  margin-right: -100%;
-  margin-left: 0%;
-  clear: none; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/layouts\/culturaviva\/_main\.scss}line{font-family:\000031}}
-.l-cv-main {
-  width: 65.95745%;
-  float: right;
-  margin-left: 0;
-  margin-right: 0;
-  clear: none; }
-
-/*.l-cv-slider{
-    @include grid-span(8,5);  
-}
-.l-cv-content{
-    @include grid-span(8,1);}
-.l-cv-sidebar{
-    @include grid-span(4,9);
-}
-.l-region--destacado{
-    @include grid-span(8,5);
-}
-.l-region--breadcrumb{
-    @include grid-span(8,5);
-}
+Backtrace:
+/home/david/public_html/sites/all/themes/cultura_viva_theme/sass/cultura-viva-theme.styles.scss:200
+/home/david/public_html/sites/all/themes/cultura_viva_theme/sass/cultura-viva-theme.no-query.scss:5
+/home/david/.rvm/gems/ruby-1.9.3-p545/gems/sass-3.2.19/lib/sass/script/funcall.rb:162:in `rescue in _perform'
+/home/david/.rvm/gems/ruby-1.9.3-p545/gems/sass-3.2.19/lib/sass/script/funcall.rb:99:in `_perform'
+/home/david/.rvm/gems/ruby-1.9.3-p545/gems/sass-3.2.19/lib/sass/script/node.rb:40:in `perform'
+/home/david/.rvm/gems/ruby-1.9.3-p545/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:298:in `visit_prop'
+/home/david/.rvm/gems/ruby-1.9.3-p545/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:37:in `visit'
+/home/david/.rvm/gems/ruby-1.9.3-p545/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/home/david/.rvm/gems/ruby-1.9.3-p545/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/home/david/.rvm/gems/ruby-1.9.3-p545/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:53:in `map'
+/home/david/.rvm/gems/ruby-1.9.3-p545/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/home/david/.rvm/gems/ruby-1.9.3-p545/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
+/home/david/.rvm/gems/ruby-1.9.3-p545/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
+/home/david/.rvm/gems/ruby-1.9.3-p545/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
+/home/david/.rvm/gems/ruby-1.9.3-p545/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/home/david/.rvm/gems/ruby-1.9.3-p545/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:320:in `visit_rule'
+/home/david/.rvm/gems/ruby-1.9.3-p545/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:37:in `visit'
+/home/david/.rvm/gems/ruby-1.9.3-p545/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/home/david/.rvm/gems/ruby-1.9.3-p545/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:227:in `block in visit_import'
+/home/david/.rvm/gems/ruby-1.9.3-p545/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:227:in `map'
+/home/david/.rvm/gems/ruby-1.9.3-p545/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:227:in `visit_import'
+/home/david/.rvm/gems/ruby-1.9.3-p545/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:37:in `visit'
+/home/david/.rvm/gems/ruby-1.9.3-p545/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/home/david/.rvm/gems/ruby-1.9.3-p545/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/home/david/.rvm/gems/ruby-1.9.3-p545/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:53:in `map'
+/home/david/.rvm/gems/ruby-1.9.3-p545/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/home/david/.rvm/gems/ruby-1.9.3-p545/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
+/home/david/.rvm/gems/ruby-1.9.3-p545/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
+/home/david/.rvm/gems/ruby-1.9.3-p545/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
+/home/david/.rvm/gems/ruby-1.9.3-p545/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/home/david/.rvm/gems/ruby-1.9.3-p545/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:128:in `visit_root'
+/home/david/.rvm/gems/ruby-1.9.3-p545/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:37:in `visit'
+/home/david/.rvm/gems/ruby-1.9.3-p545/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/home/david/.rvm/gems/ruby-1.9.3-p545/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:7:in `visit'
+/home/david/.rvm/gems/ruby-1.9.3-p545/gems/sass-3.2.19/lib/sass/tree/root_node.rb:20:in `render'
+/home/david/.rvm/gems/ruby-1.9.3-p545/gems/sass-3.2.19/lib/sass/engine.rb:315:in `_render'
+/home/david/.rvm/gems/ruby-1.9.3-p545/gems/sass-3.2.19/lib/sass/engine.rb:262:in `render'
+/home/david/.rvm/gems/ruby-1.9.3-p545/gems/compass-0.12.6/lib/compass/compiler.rb:139:in `block (2 levels) in compile'
+/home/david/.rvm/gems/ruby-1.9.3-p545/gems/compass-0.12.6/lib/compass/compiler.rb:126:in `timed'
+/home/david/.rvm/gems/ruby-1.9.3-p545/gems/compass-0.12.6/lib/compass/compiler.rb:138:in `block in compile'
+/home/david/.rvm/gems/ruby-1.9.3-p545/gems/compass-0.12.6/lib/compass/logger.rb:45:in `red'
+/home/david/.rvm/gems/ruby-1.9.3-p545/gems/compass-0.12.6/lib/compass/compiler.rb:137:in `compile'
+/home/david/.rvm/gems/ruby-1.9.3-p545/gems/compass-0.12.6/lib/compass/compiler.rb:118:in `compile_if_required'
+/home/david/.rvm/gems/ruby-1.9.3-p545/gems/compass-0.12.6/lib/compass/compiler.rb:103:in `block (2 levels) in run'
+/home/david/.rvm/gems/ruby-1.9.3-p545/gems/compass-0.12.6/lib/compass/compiler.rb:101:in `each'
+/home/david/.rvm/gems/ruby-1.9.3-p545/gems/compass-0.12.6/lib/compass/compiler.rb:101:in `block in run'
+/home/david/.rvm/gems/ruby-1.9.3-p545/gems/compass-0.12.6/lib/compass/compiler.rb:126:in `timed'
+/home/david/.rvm/gems/ruby-1.9.3-p545/gems/compass-0.12.6/lib/compass/compiler.rb:100:in `run'
+/home/david/.rvm/gems/ruby-1.9.3-p545/gems/compass-0.12.6/lib/compass/commands/update_project.rb:45:in `perform'
+/home/david/.rvm/gems/ruby-1.9.3-p545/gems/compass-0.12.6/lib/compass/commands/base.rb:18:in `execute'
+/home/david/.rvm/gems/ruby-1.9.3-p545/gems/compass-0.12.6/lib/compass/commands/project_base.rb:19:in `execute'
+/home/david/.rvm/gems/ruby-1.9.3-p545/gems/guard-compass-1.1.0/lib/guard/compass.rb:140:in `perform'
+/home/david/.rvm/gems/ruby-1.9.3-p545/gems/guard-compass-1.1.0/lib/guard/compass.rb:123:in `run_on_change'
+/home/david/.rvm/gems/ruby-1.9.3-p545/gems/guard-2.6.1/lib/guard/runner.rb:74:in `block in run_supervised_task'
+/home/david/.rvm/gems/ruby-1.9.3-p545/gems/guard-2.6.1/lib/guard/runner.rb:71:in `catch'
+/home/david/.rvm/gems/ruby-1.9.3-p545/gems/guard-2.6.1/lib/guard/runner.rb:71:in `run_supervised_task'
+/home/david/.rvm/gems/ruby-1.9.3-p545/gems/guard-2.6.1/lib/guard/runner.rb:119:in `block in _run_first_task_found'
+/home/david/.rvm/gems/ruby-1.9.3-p545/gems/guard-2.6.1/lib/guard/runner.rb:117:in `each'
+/home/david/.rvm/gems/ruby-1.9.3-p545/gems/guard-2.6.1/lib/guard/runner.rb:117:in `_run_first_task_found'
+/home/david/.rvm/gems/ruby-1.9.3-p545/gems/guard-2.6.1/lib/guard/runner.rb:53:in `block in run_on_changes'
+/home/david/.rvm/gems/ruby-1.9.3-p545/gems/guard-2.6.1/lib/guard/runner.rb:150:in `block (3 levels) in _scoped_plugins'
+/home/david/.rvm/gems/ruby-1.9.3-p545/gems/guard-2.6.1/lib/guard/runner.rb:148:in `each'
+/home/david/.rvm/gems/ruby-1.9.3-p545/gems/guard-2.6.1/lib/guard/runner.rb:148:in `block (2 levels) in _scoped_plugins'
+/home/david/.rvm/gems/ruby-1.9.3-p545/gems/guard-2.6.1/lib/guard/runner.rb:147:in `catch'
+/home/david/.rvm/gems/ruby-1.9.3-p545/gems/guard-2.6.1/lib/guard/runner.rb:147:in `block in _scoped_plugins'
+/home/david/.rvm/gems/ruby-1.9.3-p545/gems/guard-2.6.1/lib/guard/runner.rb:145:in `each'
+/home/david/.rvm/gems/ruby-1.9.3-p545/gems/guard-2.6.1/lib/guard/runner.rb:145:in `_scoped_plugins'
+/home/david/.rvm/gems/ruby-1.9.3-p545/gems/guard-2.6.1/lib/guard/runner.rb:46:in `run_on_changes'
+/home/david/.rvm/gems/ruby-1.9.3-p545/gems/guard-2.6.1/lib/guard/setuper.rb:296:in `block (2 levels) in _listener_callback'
+/home/david/.rvm/gems/ruby-1.9.3-p545/gems/guard-2.6.1/lib/guard/commander.rb:108:in `block in within_preserved_state'
+<internal:prelude>:10:in `synchronize'
+/home/david/.rvm/gems/ruby-1.9.3-p545/gems/guard-2.6.1/lib/guard/commander.rb:105:in `within_preserved_state'
+/home/david/.rvm/gems/ruby-1.9.3-p545/gems/guard-2.6.1/lib/guard/setuper.rb:295:in `block in _listener_callback'
+/home/david/.rvm/gems/ruby-1.9.3-p545/gems/listen-2.7.4/lib/listen/listener.rb:149:in `call'
+/home/david/.rvm/gems/ruby-1.9.3-p545/gems/listen-2.7.4/lib/listen/listener.rb:149:in `block in _wait_for_changes'
+/home/david/.rvm/gems/ruby-1.9.3-p545/gems/listen-2.7.4/lib/listen/listener.rb:138:in `loop'
+/home/david/.rvm/gems/ruby-1.9.3-p545/gems/listen-2.7.4/lib/listen/listener.rb:138:in `_wait_for_changes'
+/home/david/.rvm/gems/ruby-1.9.3-p545/gems/listen-2.7.4/lib/listen/listener.rb:42:in `block in start'
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\0000326}}
-body {
-  margin: 0 5%; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\0000329}}
-.l-cv-header {
-  background: none repeat scroll 0 0 rgba(0, 110, 250, 0.7);
-  border-bottom: 5px solid black;
-  border-right: 3px solid gray;
-  clear: none;
-  float: left;
-  height: 1500px;
-  margin-left: 0;
-  margin-right: -100%;
-  position: fixed;
-  width: 30%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\0000340}}
-  .l-cv-header .l-cv-branding {
-    clear: none;
-    float: none;
-    margin-left: 0;
-    margin-right: -100%;
-    width: 100%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\0000346}}
-    .l-cv-header .l-cv-branding .l-region.l-region--branding {
-      height: 100%;
-      margin: 15% auto;
-      width: 60%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\0000351}}
-      .l-cv-header .l-cv-branding .l-region.l-region--branding .presenta-sitename .site-name {
-        color: #FFFFFF;
-        font-size: 2rem;
-        margin: 0 auto;
-        text-transform: uppercase;
-        text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\0000357}}
-        .l-cv-header .l-cv-branding .l-region.l-region--branding .presenta-sitename .site-name a {
-          color: white;
-          margin: 0 auto;
-          text-align: center;
-          text-decoration: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\0000364}}
-      .l-cv-header .l-cv-branding .l-region.l-region--branding .presenta-sitename .slogan {
-        color: #0000FF;
-        font-size: 0.8rem;
-        text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\0000368}}
-        .l-cv-header .l-cv-branding .l-region.l-region--branding .presenta-sitename .slogan a {
-          color: blue;
-          margin: 0 auto;
-          text-align: center;
-          text-decoration: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\0000377}}
-  .l-cv-header #menu-541-1 {
-    margin: 0 auto; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\0000381}}
-.sf-menu.menu, .sf-menu.menu ul, .sf-menu.menu li {
-  margin: 0 auto; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\0000386}}
-.l-cv-footer {
-  clear: none;
-  display: block;
-  float: right;
-  height: 100px;
-  margin-left: 30%;
-  margin-right: 0;
-  margin-top: 103px;
-  position: relative;
-  top: 150px;
-  vertical-align: baseline;
-  width: 60%; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003102}}
-.menu-central #formulario-inscripcion {
-  position: relative;
-  margin: 10px auto;
-  padding: 10px;
-  padding-top: 90px;
-  background-color: white;
-  border-radius: 10px;
-  border-bottom-width: medium;
-  border-color: black;
-  text-align: center;
-  font-size: 20px;
-  top: 40px;
-  color: black;
-  border-bottom: 4px solid #242222;
-  border-right: 4px solid #585353;
-  height: 200px;
-  width: 100%;
-  text-decoration: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003120}}
-  .menu-central #formulario-inscripcion a:active, .menu-central #formulario-inscripcion a:hover {
-    background: #ff6600;
-    color: blue; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003125}}
-.menu-central #convocatoria {
-  background: white;
-  height: 50px;
-  width: 100%;
-  border-radius: 10px;
-  color: black;
-  border-bottom: 4px solid #242222;
-  border-right: 4px solid #585353;
-  text-align: center;
-  position: relative;
-  top: 20px;
-  text-decoration: none;
-  font-size: 20px;
-  vertical-align: middle;
-  padding-top: 12px;
-  text-decoration: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003142}}
-  .menu-central #convocatoria a:active, .menu-central #convocatoria a:hover {
-    background: #ff6600;
-    color: blue; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003148}}
-.menu-central .menu-central-hijo {
-  background: #ff6600;
-  color: blue;
-  margin: 3px;
-  padding: 2px;
-  border-radius: 0 0 5px 5px;
-  text-decoration: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003156}}
-  .menu-central .menu-central-hijo a:active, .menu-central .menu-central-hijo a:hover {
-    background: yellow;
-    color: red; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003162}}
-.naranjo-cvc {
-  color: #ff6600; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003166}}
-.book-navigation__links {
-  background: none repeat scroll 0 0 #ff6600;
-  border-radius: 10px;
-  font-size: 15px;
-  margin: 50px auto;
-  padding: 20px;
-  height: 66px;
-  text-decoration: none;
-  vertical-align: middle;
-  font-family: serif; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003176}}
-  .book-navigation__links a {
-    text-decoration: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003178}}
-    .book-navigation__links a:hover {
-      height: 30px;
-      background: red;
-      border-radius: 10px; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003186}}
-.l-cv-slider {
-  position: relative;
-  height: 500px; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003191}}
-.js {
-  font-family: sans-serif;
-  -ms-text-size-adjust: 100%;
-  background: url(http://www.encuentroculturaviva.cl/sites/default/files/galeria/header_recortado_0.png);
-  background-size: 100% auto;
-  background-repeat: no-repeat; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003199}}
-.l-cv-content {
-  background: rgba(125, 248, 86, 0.7);
-  border-radius: 20px;
-  padding: 50px;
-  border-bottom: 5px solid black;
-  border-left: 3px solid gray; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003207}}
-.l-cv-region--breadcrumb {
-  background: rgba(0, 200, 48, 0.7);
-  border-radius: 20px;
-  padding: 4px;
-  margin: 20px auto;
-  border-bottom: 4px solid black;
-  border-left: 3px solid gray; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003214}}
-  .l-cv-region--breadcrumb a {
-    text-decoration: none; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003219}}
-.espacio-tiempo {
-  background: palegoldenrod;
-  position: absolute;
-  top: 30px;
-  margin: 40px 50px;
-  padding: 20px;
-  left: -150px;
-  border-radius: 20px;
-  border-bottom: 3px solid black;
-  border-left: 2px solid gray;
-  border-right: 2px solid gray;
+body:before {
+  white-space: pre;
   font-family: monospace;
-  font-size: 18px; }
+  content: "Syntax error: wrong number of arguments (4 for 3) for `rgb'\A         on line 200 of /home/david/public_html/sites/all/themes/cultura_viva_theme/sass/cultura-viva-theme.styles.scss\A         from line 5 of /home/david/public_html/sites/all/themes/cultura_viva_theme/sass/cultura-viva-theme.no-query.scss"; }
