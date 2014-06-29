@@ -304,3 +304,30 @@ font-family: Ubuntu;
 
 
 
+.view-vista-footer{
+    td{
+
+
+
+        @include breakpoint($celular_small){
+            height: 50px;
+    padding: 0px;
+}
+        @include breakpoint($celular){
+            height: 70px;
+    padding: 8px;
+}
+        @include breakpoint($tablet){
+            height: 80px;
+     padding: 12px;
+}
+
+        @include breakpoint($desk_normal){
+    padding: 15px;  
+}
+        @include breakpoint($desk_wide){
+    padding: 25px;
+}
+
+    }
+}
