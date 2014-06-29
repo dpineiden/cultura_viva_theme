@@ -115,8 +115,32 @@ color:black;
 border-bottom: 4px solid rgb(36, 34, 34);
 border-right: 4px solid rgb(88, 83, 83);
 height: 200px;
-width: 100%;
+
 text-decoration: none;
+
+    @include breakpoint($celular_small){
+padding: 36px 10px 10px;
+width: 150px;
+}
+        @include breakpoint($celular){
+padding: 36px 10px 10px;
+width: 150px;
+}
+        @include breakpoint($tablet){
+padding: 20px 10px 10px;
+width: 100%;
+height: 60px;    
+}
+        @include breakpoint($desk_normal){
+padding: 90px 10px 10px;            
+width: 100%;  
+}
+        @include breakpoint($desk_wide){
+padding: 90px 10px 10px;            
+width: 100%;
+}
+
+
 a:active,  a:hover{
             background: $naranjo;
             color: $azul;
@@ -172,7 +196,7 @@ a{
     height: 66px;
     text-decoration: none;
     vertical-align: middle;
-    font-family: Dosis;
+    font-family: Ubuntu;
     a{
         text-decoration: none;
         &:hover{
@@ -189,7 +213,7 @@ height: 500px;
 }
 
 .js {
-font-family: Dosis;
+font-family: Ubuntu;
 -ms-text-size-adjust: 100%;
 background: url(http://www.encuentroculturaviva.cl/sites/default/files/galeria/header_recortado_0.png);
 background-size: 100% auto;
@@ -225,11 +249,42 @@ position: absolute;
 top: 30px;
 margin: 10px 50px;
 padding: 20px;
-left: -150px;
+
+
+    @include breakpoint($celular_small){
+         left: -10px;  
+         font-size: 12px;      
+          width: 150px;
+}
+        @include breakpoint($celular){
+         left: -50px; 
+         font-size: 12px;
+          width: 150px;
+}
+        @include breakpoint($tablet){
+         left: -90px;  
+         font-size: 18px; 
+         width: 250px;    
+}
+        @include breakpoint($desk_normal){
+         left: -120px;   
+         font-size: 18px;
+         width: 250px;   
+}
+        @include breakpoint($desk_wide){
+         left: -150px;    
+         font-size: 18px;  
+         width: 250px;
+}
+
+
 border-radius: 20px;
 border-bottom: 3px solid black;
 border-left: 2px solid gray;
 border-right: 2px solid gray;
-font-family: Dosis;
-font-size: 18px;
+font-family: Ubuntu;
+
 }
+
+
+
