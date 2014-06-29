@@ -306,7 +306,27 @@ font-family: Ubuntu;
 
 .view-vista-footer{
     td{
-        img{max-height: 100%;}
+        img{
+        @include breakpoint($celular_small){
+    max-height: 100%;
+
+}
+        @include breakpoint($celular){
+           max-height: 100%;
+
+}
+        @include breakpoint($tablet){
+           max-height: 100%;
+}
+
+        @include breakpoint($desk_normal){
+
+}
+        @include breakpoint($desk_wide){
+
+}
+
+}
 
         @include breakpoint($celular_small){
             height: 40px;
