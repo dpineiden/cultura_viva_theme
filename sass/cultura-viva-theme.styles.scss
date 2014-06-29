@@ -306,47 +306,24 @@ font-family: Ubuntu;
 
 .view-vista-footer{
     td{
-        img{
         @include breakpoint($celular_small){
-    max-height: 100%;
-
-}
-        @include breakpoint($celular){
-           max-height: 100%;
-
-}
+            padding: 29px;}
+    @include breakpoint($celular){
+            padding: 29px;}
         @include breakpoint($tablet){
-           max-height: 100%;
+            padding: 29px;
 }
 
         @include breakpoint($desk_normal){
+            padding: 29px;
 
 }
         @include breakpoint($desk_wide){
+             padding: 32px;
 
 }
 
 }
 
-        @include breakpoint($celular_small){
-            height: 40px;
-    padding: 0px;
-}
-        @include breakpoint($celular){
-            height: 50px;
-    padding: 8px;
-}
-        @include breakpoint($tablet){
-            height: 60px;
-     padding: 12px;
-}
-
-        @include breakpoint($desk_normal){
-    padding: 15px;  
-}
-        @include breakpoint($desk_wide){
-    padding: 25px;
-}
-
-    }
+      }
 }
