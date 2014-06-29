@@ -125,13 +125,13 @@ height: 200px;
 text-decoration: none;
 
     @include breakpoint($celular_small){
-padding: 36px 10px 10px;
+padding: 20px 10px 10px;
 width: 150px;
 font-size: 12px;
 margin: 0px auto;
 }
         @include breakpoint($celular){
-padding: 36px 10px 10px;
+padding: 20px 10px 10px;
 width: 150px;
 font-size: 14px;
 margin: 0px auto;
@@ -144,13 +144,13 @@ font-size: 16px;
 margin: 5px auto;    
 }
         @include breakpoint($desk_normal){
-padding: 90px 10px 10px;            
+padding: 20px 10px 10px;          
 width: 100%; 
 font-size: 18px;
 margin: 10px auto; 
 }
         @include breakpoint($desk_wide){
-padding: 90px 10px 10px;            
+padding: 20px 10px 10px;         
 width: 100%;
 font-size: 20px;
 margin: 10px auto;

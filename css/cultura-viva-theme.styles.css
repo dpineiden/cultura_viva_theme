@@ -156,14 +156,14 @@ body {
   @media (min-width: 212px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003112}}
     .menu-central #formulario-inscripcion {
-      padding: 36px 10px 10px;
+      padding: 20px 10px 10px;
       width: 150px;
       font-size: 12px;
       margin: 0px auto; } }
   @media (min-width: 440px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003112}}
     .menu-central #formulario-inscripcion {
-      padding: 36px 10px 10px;
+      padding: 20px 10px 10px;
       width: 150px;
       font-size: 14px;
       margin: 0px auto; } }
@@ -178,14 +178,14 @@ body {
   @media (min-width: 900px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003112}}
     .menu-central #formulario-inscripcion {
-      padding: 90px 10px 10px;
+      padding: 20px 10px 10px;
       width: 100%;
       font-size: 18px;
       margin: 10px auto; } }
   @media (min-width: 1200px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003112}}
     .menu-central #formulario-inscripcion {
-      padding: 90px 10px 10px;
+      padding: 20px 10px 10px;
       width: 100%;
       font-size: 20px;
       margin: 10px auto; } }
