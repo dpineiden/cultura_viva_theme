@@ -263,3 +263,7 @@ body {
   border-left: 2px solid gray;
   border-right: 2px solid gray;
   font-family: Ubuntu; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003309}}
+.view-vista-footer td media {
+  max-height: 100%; }
