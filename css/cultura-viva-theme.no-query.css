@@ -1,10 +1,10 @@
 /*
 Syntax error: Invalid CSS after "      }": expected selector or at-rule, was "}"
-        on line 329 of /home/david/public_html/sites/all/themes/cultura_viva_theme/sass/cultura-viva-theme.styles.scss
+        on line 333 of /home/david/public_html/sites/all/themes/cultura_viva_theme/sass/cultura-viva-theme.styles.scss
         from line 5 of /home/david/public_html/sites/all/themes/cultura_viva_theme/sass/cultura-viva-theme.no-query.scss
 
 Backtrace:
-/home/david/public_html/sites/all/themes/cultura_viva_theme/sass/cultura-viva-theme.styles.scss:329
+/home/david/public_html/sites/all/themes/cultura_viva_theme/sass/cultura-viva-theme.styles.scss:333
 /home/david/public_html/sites/all/themes/cultura_viva_theme/sass/cultura-viva-theme.no-query.scss:5
 /home/david/.rvm/gems/ruby-1.9.3-p545/gems/sass-3.2.19/lib/sass/scss/parser.rb:1149:in `expected'
 /home/david/.rvm/gems/ruby-1.9.3-p545/gems/sass-3.2.19/lib/sass/scss/parser.rb:1085:in `expected'
@@ -73,4 +73,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Invalid CSS after \"      }\": expected selector or at-rule, was \"}\"\A         on line 329 of /home/david/public_html/sites/all/themes/cultura_viva_theme/sass/cultura-viva-theme.styles.scss\A         from line 5 of /home/david/public_html/sites/all/themes/cultura_viva_theme/sass/cultura-viva-theme.no-query.scss"; }
+  content: "Syntax error: Invalid CSS after \"      }\": expected selector or at-rule, was \"}\"\A         on line 333 of /home/david/public_html/sites/all/themes/cultura_viva_theme/sass/cultura-viva-theme.styles.scss\A         from line 5 of /home/david/public_html/sites/all/themes/cultura_viva_theme/sass/cultura-viva-theme.no-query.scss"; }
