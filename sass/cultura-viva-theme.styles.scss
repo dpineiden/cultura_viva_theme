@@ -377,23 +377,40 @@ display: none;
 .view-vista-footer{
     td{
         @include breakpoint($celular_small){
-            padding: 29px;}
+            padding: 5px;
+        img{
+    height: auto;
+    max-width: 100%;
+}}
     @include breakpoint($celular){
-            padding: 29px;}
+            padding: 10px;
+        img{
+    height: auto;
+    max-width: 100%;
+}}
         @include breakpoint($tablet){
-            padding: 29px;
+            padding: 15px;
+            img{
+    height: auto;
+    max-width: 100%;
+}
 }
 
         @include breakpoint($desk_normal){
-            padding: 29px;
+            padding: 20px;
+            img{
+    height: auto;
+    max-width: 100%;
+}
 
 }
         @include breakpoint($desk_wide){
              padding: 32px;
-}
-}
-img{
-    max-height: 100%;
+             img{
+    height: auto;
     max-width: 100%;
 }
+}
+}
+
 }
