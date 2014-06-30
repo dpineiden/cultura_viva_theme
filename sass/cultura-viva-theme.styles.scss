@@ -128,29 +128,29 @@ left: 30px;
   @include breakpoint($celular_small){
 padding: 5px;
 img{
-      width: 50%;
-      height: 50%;
+      width: 30px;
+      height: 50px;
 }
 }
         @include breakpoint($celular){
 padding: 10px;
 img{
-      width: 60%;
-      height: 60%;
+      width: 40px;
+      height: 60px;
 }
 }
         @include breakpoint($tablet){
 padding: 15px;
 img{
-      width: 70%;
-      height: 70%;
+      width: 50px;
+      height: 75px;
 }
 }
         @include breakpoint($desk_normal){
 padding: 18px; 
 img{
-      width: 80%;
-      height: 80%;
+      width: 60px;
+      height:80px;
 }         
 }
         @include breakpoint($desk_wide){
