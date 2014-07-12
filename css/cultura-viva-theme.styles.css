@@ -398,10 +398,10 @@ body {
   @media (min-width: 1200px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003324}}
     .espacio-tiempo {
-      top: 0px;
+      top: -0.5%;
       width: 200px;
       padding: 5px;
-      left: 0px; } }
+      left: -20%; } }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003384}}
 .view-vista-footer table {

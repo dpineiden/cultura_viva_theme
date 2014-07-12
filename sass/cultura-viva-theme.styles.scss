@@ -356,10 +356,10 @@ padding: 20px;
             left: -90px;
 }
         @include breakpoint($desk_wide){
-            top:0px;
+            top:-0.5%;
             width: 200px;
             padding: 5px;
-            left: 0px;
+            left: -20%;
 }
 
 
