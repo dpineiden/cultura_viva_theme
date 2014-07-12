@@ -324,6 +324,7 @@ display:none;
 .espacio-tiempo {
 background: palegoldenrod;
 position: absolute;
+font-size: 0.8rem;
 top: 30px;
 margin: 10px 50px;
 padding: 20px;
@@ -338,13 +339,13 @@ padding: 20px;
 }
         @include breakpoint($celular){
             top:160px;
-            width: 160px;
+            width: 100px;
             padding: 15px;
             left: -50px;  
 }
         @include breakpoint($tablet){
             top:7px;
-            width: 160px;
+            width: 120px;
             padding: 5px;
             left: -90px;  
 }
@@ -356,7 +357,7 @@ padding: 20px;
 }
         @include breakpoint($desk_wide){
             top:0px;
-            width: 160px;
+            width: 200px;
             padding: 5px;
             left: 0px;
 }
