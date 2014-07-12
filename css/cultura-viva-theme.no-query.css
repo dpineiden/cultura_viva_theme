@@ -275,3 +275,8 @@ body {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003384}}
 .view-vista-footer table {
   margin: 0 auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003414}}
+.sharethis-wrapper {
+  padding-bottom: 5%;
+  padding-top: 5%; }

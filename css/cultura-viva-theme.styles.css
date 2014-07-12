@@ -431,3 +431,8 @@ body {
     .view-vista-footer table td img {
       height: auto;
       max-width: 100%; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003414}}
+.sharethis-wrapper {
+  padding-bottom: 5%;
+  padding-top: 5%; }
