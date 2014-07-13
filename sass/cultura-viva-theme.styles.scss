@@ -416,6 +416,21 @@ font-family: Ubuntu;
     padding-top: 5%;
 }
 
+
+@-webkit-keyframes pulse-grow {
+  to {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}
+
+@keyframes pulse-grow {
+  to {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}
+
 .convocante{
     text-align: center;
   display: inline-block;
