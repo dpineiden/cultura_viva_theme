@@ -88,7 +88,7 @@ body {
       width: 60%; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\0000350}}
       .l-cv-header .l-cv-branding .l-region.l-region--branding .presenta-sitename {
-        display: inline-block;
+        display: block;
         -webkit-transform: translateZ(0);
         transform: translateZ(0);
         box-shadow: 0 0 1px rgba(0, 0, 0, 0); }
