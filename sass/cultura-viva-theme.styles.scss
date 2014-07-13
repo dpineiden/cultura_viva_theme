@@ -427,8 +427,11 @@ display: table-caption;
     display:none;
     z-index: 1;
     &:hover{
-    display: center;
+    display: block;
     background-color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: .6rem;
     }
 }
 }
