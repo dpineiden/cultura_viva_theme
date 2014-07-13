@@ -48,6 +48,10 @@ body{
     margin: 15% auto;
     width: 60%;
 .presenta-sitename{
+      display: inline-block;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
  .site-logo{
     img{
    @include breakpoint($celular_small){
@@ -100,6 +104,19 @@ left: 30px;
 
 }
 }}}
+
+.presenta-sitename:hover, .presenta-sitename:focus, .presenta-sitename:active {
+  -webkit-animation-name: pulse-grow;
+  animation-name: pulse-grow;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+}
 #menu-541-1{
 	margin: 0 auto;	
 }
