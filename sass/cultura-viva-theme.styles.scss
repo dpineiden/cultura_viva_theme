@@ -490,6 +490,8 @@ font-family: Ubuntu;
     font-size: 1rem;
     text-align: center;
     width: 100%;
+    display: inline-flex;
+}
 }
 
 .block.block--views.media-block.block--views-media-partner-block {
@@ -499,14 +501,14 @@ font-family: Ubuntu;
     width: 100%;
 }
 
-.media-block{
+.view-media-partner{
     text-align: center;
   display: inline-block;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);}
 
-  .media-block:hover, .media-block:focus, .media-block:active {
+  .view-media-partner:hover, .view-media-partner:focus, .view-media-partner:active {
   -webkit-animation-name: pulse-grow;
   animation-name: pulse-grow;
   -webkit-animation-duration: 0.3s;
