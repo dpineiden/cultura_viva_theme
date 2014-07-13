@@ -421,9 +421,15 @@ font-family: Ubuntu;
 display: table-caption;
 .logo-convocante{
     max-width: 90%;
+    z-index: -1;
 }
 .nombre-convocante{
     display:none;
+    z-index: 1;
+    &:hover{
+    display: center;
+    background-color: white;
+    }
 }
 }
 
