@@ -487,6 +487,34 @@ font-family: Ubuntu;
 
 .block.block--views.bloque-convocantes.block--views-convocantes-block-1 {
     color: #007CC8;
-    font-size: 1.5rem;
+    font-size: 1rem;
     text-align: center;
+    width: 100%;
+}
+
+.block.block--views.media-block.block--views-media-partner-block {
+    color: #981616;
+    display: inline-flex;
+    font-size: 1rem;
+    width: 100%;
+}
+
+.media-block{
+    text-align: center;
+  display: inline-block;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);}
+
+  .media-block:hover, .media-block:focus, .media-block:active {
+  -webkit-animation-name: pulse-grow;
+  animation-name: pulse-grow;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
 }
