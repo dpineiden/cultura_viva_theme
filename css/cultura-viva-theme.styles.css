@@ -464,10 +464,11 @@ body {
       text-decoration: none;
       text-align: center;
       font-size: .6rem; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003446}}
-  .convocante:hover, .convocante:focus, .convocante:active {
-    -webkit-transform: scale(0.9);
-    transform: scale(0.9); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003447}}
+.convocante:hover, .convocante:focus, .convocante:active {
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9); }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003452}}
 .block.block--views.bloque-convocantes.block--views-convocantes-block-1 {

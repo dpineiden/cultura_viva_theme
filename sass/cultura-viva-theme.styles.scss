@@ -443,10 +443,10 @@ font-family: Ubuntu;
     font-size: .6rem;
     }
 }
-&:hover, &:focus, &:active {
+}
+.convocante:hover, .convocante:focus, .convocante:active {
   -webkit-transform: scale(0.9);
   transform: scale(0.9);
-}
 }
 
 .block.block--views.bloque-convocantes.block--views-convocantes-block-1 {
