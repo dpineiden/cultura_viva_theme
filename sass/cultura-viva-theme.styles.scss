@@ -427,7 +427,7 @@ display: table-caption;
     display:none;
     z-index: 1;
     &:hover{
-    opacity:.7;
+    filter: alpha(opacity=70);  
     display: block;
     background-color: white;
     text-decoration: none;
