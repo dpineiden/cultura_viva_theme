@@ -520,7 +520,7 @@ body {
   width: 100%; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003504}}
-.view-media-partner.field-content {
+.media-partner {
   text-align: center;
   display: inline-block;
   -webkit-transform: translateZ(0);
@@ -528,7 +528,7 @@ body {
   box-shadow: 0 0 1px rgba(0, 0, 0, 0); }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003511}}
-.view-media-partner.field-content:hover, .view-media-partner.field-content:focus, .view-media-partner.field-content:active {
+.media-partner:hover, .media-partner:focus, .media-partner:active {
   -webkit-animation-name: pulse-grow;
   animation-name: pulse-grow;
   -webkit-animation-duration: 0.3s;
