@@ -280,3 +280,13 @@ body {
 .sharethis-wrapper {
   padding-bottom: 5%;
   padding-top: 5%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003419}}
+.convocante {
+  text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003421}}
+  .convocante .logo-convocante {
+    max-width: 90%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003424}}
+  .convocante .nombre-convocante {
+    display: none; }
