@@ -520,3 +520,21 @@ font-family: Ubuntu;
   -webkit-animation-direction: alternate;
   animation-direction: alternate;
 }
+
+.ultimos-articulos{
+    .ua-titulo{
+    font-size: 1.4rem;    
+    a {
+    text-decoration: none;
+    }}
+    .ua-content {
+    display: inline-flex;
+        .ua-imagen {
+        padding: 10px;
+        }
+        .ua-resumen {
+        padding: 10px;
+        text-align: justify;
+        }
+    }
+}

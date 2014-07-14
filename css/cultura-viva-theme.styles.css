@@ -539,3 +539,20 @@ body {
   animation-iteration-count: infinite;
   -webkit-animation-direction: alternate;
   animation-direction: alternate; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003525}}
+.ultimos-articulos .ua-titulo {
+  font-size: 1.4rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003527}}
+  .ultimos-articulos .ua-titulo a {
+    text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003530}}
+.ultimos-articulos .ua-content {
+  display: inline-flex; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003532}}
+  .ultimos-articulos .ua-content .ua-imagen {
+    padding: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003535}}
+  .ultimos-articulos .ua-content .ua-resumen {
+    padding: 10px;
+    text-align: justify; }
