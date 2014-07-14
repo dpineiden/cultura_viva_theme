@@ -36,7 +36,7 @@ body{
     margin-left: 0;
     margin-right: -100%;
     position: fixed;
-    width: 30%;
+    width: 20%;
 .l-cv-branding {
     clear: none;
     float: none;
@@ -46,7 +46,7 @@ body{
 .l-region.l-region--branding {
     height: 100%;
     margin: 15% auto;
-    width: 60%;
+    width: 90%;
 .presenta-sitename{
       display: block;
   -webkit-transform: translateZ(0);
@@ -235,7 +235,7 @@ margin: 10px auto;
 }
 
 
-a:active,  a:hover{
+&:active,  &:hover{
             background: $naranjo;
             color: $azul;
         }
@@ -256,11 +256,11 @@ font-size: 20px;
 vertical-align: middle;
 padding-top: 12px;
 text-decoration: none;
-a{
+
 &:active,  &:hover{
             background: $naranjo;
             color: $azul;
-        }}
+        }
 }
 
 .menu-central-hijo{

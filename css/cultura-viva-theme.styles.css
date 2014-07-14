@@ -73,7 +73,7 @@ body {
   margin-left: 0;
   margin-right: -100%;
   position: fixed;
-  width: 30%; }
+  width: 20%; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\0000340}}
   .l-cv-header .l-cv-branding {
     clear: none;
@@ -85,7 +85,7 @@ body {
     .l-cv-header .l-cv-branding .l-region.l-region--branding {
       height: 100%;
       margin: 15% auto;
-      width: 60%; }
+      width: 90%; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\0000350}}
       .l-cv-header .l-cv-branding .l-region.l-region--branding .presenta-sitename {
         display: block;
@@ -274,7 +274,7 @@ body {
       font-size: 20px;
       margin: 10px auto; } }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003238}}
-  .menu-central #formulario-inscripcion a:active, .menu-central #formulario-inscripcion a:hover {
+  .menu-central #formulario-inscripcion:active, .menu-central #formulario-inscripcion:hover {
     background: #ff6600;
     color: blue; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003243}}
@@ -295,7 +295,7 @@ body {
   padding-top: 12px;
   text-decoration: none; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003260}}
-  .menu-central #convocatoria a:active, .menu-central #convocatoria a:hover {
+  .menu-central #convocatoria:active, .menu-central #convocatoria:hover {
     background: #ff6600;
     color: blue; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003266}}
