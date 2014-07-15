@@ -187,6 +187,9 @@ img{
 
 //menu de zona marca
 .menu-central{
+    margin: 0 auto;
+    position: relative;
+    width: 90%;    
 #formulario-inscripcion {
 position: relative;
 background-color: white;
@@ -249,13 +252,12 @@ color: black;
 border-bottom: 4px solid rgb(36, 34, 34);
 border-right: 4px solid rgb(88, 83, 83);
 text-align: center;
-position: relative;
-top: 20px;
 text-decoration: none;
-font-size: 20px;
+font-size: 18px;
 vertical-align: middle;
 padding-top: 12px;
 text-decoration: none;
+top:20px;
 
 &:active,  &:hover{
             background: $naranjo;
