@@ -412,4 +412,6 @@ body {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003549}}
 .search-block-form {
-  text-align: right; }
+  text-align: right;
+  margin: 10px;
+  padding: 10px; }
