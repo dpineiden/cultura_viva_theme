@@ -211,26 +211,26 @@ margin: 0px auto;
         @include breakpoint($celular){
 padding: 20px 10px 10px;
 width: 150px;
-font-size: 14px;
+font-size: 13px;
 margin: 0px auto;
 }
         @include breakpoint($tablet){
 padding: 20px 10px 10px;
-width: 100%;
+width: 70%;
 height: 60px;
-font-size: 16px;
+font-size: 14px;
 margin: 5px auto;    
 }
         @include breakpoint($desk_normal){
 padding: 20px 10px 10px;          
-width: 100%; 
-font-size: 18px;
+width: 80%; 
+font-size: 15px;
 margin: 10px auto; 
 }
         @include breakpoint($desk_wide){
 padding: 20px 10px 10px;         
-width: 100%;
-font-size: 20px;
+width: 80%;
+font-size: 16px;
 margin: 10px auto;
 }
 
@@ -243,7 +243,7 @@ margin: 10px auto;
 #convocatoria {
 background: white;
 height: 50px;
-width: 100%;
+width: 80%;
 border-radius: 10px;
 color: black;
 border-bottom: 4px solid rgb(36, 34, 34);
@@ -529,6 +529,7 @@ font-family: Ubuntu;
     }}
     .ua-content {
     display: inline-flex;
+    width: 100%;
         .ua-imagen {
         padding: 10px;
         }

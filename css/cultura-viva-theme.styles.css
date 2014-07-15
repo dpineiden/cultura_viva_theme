@@ -249,29 +249,29 @@ body {
     .menu-central #formulario-inscripcion {
       padding: 20px 10px 10px;
       width: 150px;
-      font-size: 14px;
+      font-size: 13px;
       margin: 0px auto; } }
   @media (min-width: 600px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003190}}
     .menu-central #formulario-inscripcion {
       padding: 20px 10px 10px;
-      width: 100%;
+      width: 70%;
       height: 60px;
-      font-size: 16px;
+      font-size: 14px;
       margin: 5px auto; } }
   @media (min-width: 900px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003190}}
     .menu-central #formulario-inscripcion {
       padding: 20px 10px 10px;
-      width: 100%;
-      font-size: 18px;
+      width: 80%;
+      font-size: 15px;
       margin: 10px auto; } }
   @media (min-width: 1200px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003190}}
     .menu-central #formulario-inscripcion {
       padding: 20px 10px 10px;
-      width: 100%;
-      font-size: 20px;
+      width: 80%;
+      font-size: 16px;
       margin: 10px auto; } }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003238}}
   .menu-central #formulario-inscripcion:active, .menu-central #formulario-inscripcion:hover {
@@ -281,7 +281,7 @@ body {
 .menu-central #convocatoria {
   background: white;
   height: 50px;
-  width: 100%;
+  width: 80%;
   border-radius: 10px;
   color: black;
   border-bottom: 4px solid #242222;
@@ -548,11 +548,12 @@ body {
     text-decoration: none; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003530}}
 .ultimos-articulos .ua-content {
-  display: inline-flex; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003532}}
+  display: inline-flex;
+  width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003533}}
   .ultimos-articulos .ua-content .ua-imagen {
     padding: 10px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003535}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003536}}
   .ultimos-articulos .ua-content .ua-resumen {
     padding: 10px;
     text-align: justify; }
