@@ -405,3 +405,11 @@ body {
   .ultimos-articulos .ua-content .ua-resumen {
     padding: 10px;
     text-align: justify; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003546}}
+.titulo-vista {
+  display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003549}}
+.search-block-form {
+  text-align: right; }
