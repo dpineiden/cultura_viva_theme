@@ -527,7 +527,8 @@ font-family: Ubuntu;
 
 .ultimos-articulos{
     .ua-titulo{
-    font-size: 1.4rem;    
+    font-size: 1.4rem;  
+    padding: 5%;  
     a {
     text-decoration: none;
     }}
@@ -554,5 +555,11 @@ font-family: Ubuntu;
 .search-block-form {
     text-align: right;
     margin: 10px;
-    padding: 10px;
+    padding: 20px;
+}
+//Menu de contenidos
+#menu-583-4 {
+width: 80%;
+display: block;
+text-align: center;
 }
