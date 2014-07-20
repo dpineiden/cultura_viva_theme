@@ -53,6 +53,7 @@
 
 
   <footer class="l-cv-footer" role="Info Footer">
+    <?php print render($page['footer-0']); ?>
     <?php print render($page['footer']); ?>
   </footer>  
 

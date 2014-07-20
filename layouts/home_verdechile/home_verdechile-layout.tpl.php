@@ -1,8 +1,5 @@
 <div<?php print $attributes; ?>>
   <header class="l-header" role="banner">
-	  <div class="l-principal" role="principal">
-	      <?php print render($page['principal']); ?>
-	  </div>
     <div class="l-om-branding" role="logo-marca">
       <?php if ($logo): ?>
         <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" class="site-logo" role="logo-sitio"><img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" /></a>
@@ -22,7 +19,9 @@
 
       <?php print render($page['branding']); ?>
     </div>
- 
+	  <div class="l-principal" role="principal">
+	      <?php print render($page['principal']); ?>
+	  </div>
   </header> 
 
   <div class="l-main">
