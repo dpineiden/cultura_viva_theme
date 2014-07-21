@@ -590,11 +590,13 @@ body {
   #block-superfish-4 .menu-contenidos {
     width: 60px;
     height: 60px;
-    background: rgba(250, 230, 100, 0.5);
+    background: none repeat scroll 0 0 rgba(45, 164, 211, 0.8);
     text-decoration: none;
     text-align: center;
     padding-top: 18px;
     border-radius: 50%;
+    font-family: Ubuntu;
+    border: medium solid;
     display: inline-block;
     -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
@@ -603,6 +605,6 @@ body {
     -webkit-transform: translateZ(0);
     transform: translateZ(0);
     box-shadow: 0 0 1px rgba(0, 0, 0, 0); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003593}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003595}}
   #block-superfish-4 .menu-contenidos:hover, #block-superfish-4 .menu-contenidos:focus, #block-superfish-4 .menu-contenidos:active {
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6); }

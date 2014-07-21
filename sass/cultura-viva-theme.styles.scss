@@ -575,11 +575,13 @@ padding: 10px;
 .menu-contenidos {
 width: 60px;
 height: 60px;
-background: rgba(250,230,100,.5);
+background: none repeat scroll 0 0 rgba(45, 164, 211, 0.8);
 text-decoration: none;
 text-align: center;
 padding-top: 18px;
 border-radius: 50%;
+  font-family: Ubuntu;
+ border: medium solid;
   display: inline-block;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
