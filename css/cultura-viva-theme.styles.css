@@ -595,6 +595,7 @@ body {
     text-align: center;
     padding-top: 18px;
     border-radius: 50%;
+    color: white;
     font-family: Ubuntu;
     border: medium solid;
     display: inline-block;
@@ -605,6 +606,6 @@ body {
     -webkit-transform: translateZ(0);
     transform: translateZ(0);
     box-shadow: 0 0 1px rgba(0, 0, 0, 0); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003595}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003596}}
   #block-superfish-4 .menu-contenidos:hover, #block-superfish-4 .menu-contenidos:focus, #block-superfish-4 .menu-contenidos:active {
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6); }
