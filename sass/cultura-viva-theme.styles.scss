@@ -60,23 +60,6 @@ body{
  .site-logo{
     img{
       height: auto;
-   @include breakpoint($celular_small){
-left: 0px;
-}
-        @include breakpoint($celular){
-left: 0px;
-}
-        @include breakpoint($tablet){
-
-left: 30px;   
-}
-        @include breakpoint($desk_normal){
-left: 30px;               
- 
-}
-        @include breakpoint($desk_wide){
-left: 30px;   
-}
     margin: 0 auto;
     max-width: 80%;
     position: relative;
