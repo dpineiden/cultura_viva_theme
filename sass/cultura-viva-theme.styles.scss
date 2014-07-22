@@ -59,6 +59,7 @@ body{
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
  .site-logo{
     img{
+      height: auto;
    @include breakpoint($celular_small){
 left: 0px;
 }
