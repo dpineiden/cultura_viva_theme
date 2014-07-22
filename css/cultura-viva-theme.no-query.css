@@ -430,12 +430,16 @@ body {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003556}}
 #block-superfish-4 {
+  direction: ltr;
   display: table;
-  padding: 10px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003560}}
+  margin: 0 auto;
+  padding: 10px;
+  text-align: center;
+  width: 80%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003565}}
   #block-superfish-4 .menu-contenidos {
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     background: none repeat scroll 0 0 rgba(45, 164, 211, 0.8);
     text-decoration: none;
     text-align: center;
@@ -452,6 +456,6 @@ body {
     -webkit-transform: translateZ(0);
     transform: translateZ(0);
     box-shadow: 0 0 1px rgba(0, 0, 0, 0); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003581}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/all\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003586}}
   #block-superfish-4 .menu-contenidos:hover, #block-superfish-4 .menu-contenidos:focus, #block-superfish-4 .menu-contenidos:active {
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6); }
