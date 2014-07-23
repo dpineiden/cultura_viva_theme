@@ -120,58 +120,20 @@ body{
     background: none repeat scroll 0 0 rgba(255, 221, 58, 0.44);
     clear: none;
     display: block;
-    padding: 10px;
-    margin-left: 30%;
-    margin-right: 0;
-    margin-top: 100px;
     position: relative;
-    top: 150px;
+    top: 10rem;
     vertical-align: baseline;
-    width: 60%;
     border-radius: 20px;
     border-bottom: 5px solid #000000;
     border-left: 3px solid #808080;
-
+    padding: 1rem;
+.views-row {
+    list-style: none outside none;
+}
 .footer-display {
-    margin-left: 20%;
-    margin-right: 20%;
-
-      @include breakpoint($celular_small){
-padding: 5px;
-img{
-      width: 70%;
-      height: auto;
-}
-}
-        @include breakpoint($celular){
-padding: 10px;
-img{
-      width: 75%;
-      height: auto;
-}
-}
-        @include breakpoint($tablet){
-padding: 15px;
-img{
-      width: 80%;
-      height: auto;
-}
-}
-        @include breakpoint($desk_normal){
-padding: 18px; 
-img{
-      width: 85%;
-      height: auto;
-}         
-}
-        @include breakpoint($desk_wide){
-padding: 20px; 
-img{
-      width: 90%;
-      height: auto;
-}        
-}
-}    
+  float:left;
+img{float:left;}
+}  
 
 }
 
