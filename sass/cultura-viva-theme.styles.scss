@@ -50,7 +50,7 @@ body{
     width: 100%;
 .l-region.l-region--branding {
     height: 100%;
-    margin: 15% auto;
+    margin: 0 auto;
     width: 90%;
 .presenta-sitename{
       display: block;
@@ -144,77 +144,49 @@ img{float:left;
 
 //menu de zona marca
 .menu-central{
+	display: table;
     margin: 0 auto;
     position: relative;
-    width: 90%;    
+    width: 80%;  
+    font-size: 1rem;  
+    .sf-vertical, .sf-vertical li {
+    width: 100%;
+}
 #formulario-inscripcion {
+display: table-cell;	
+vertical-align: middle;
 position: relative;
 background-color: white;
 border-radius: 10px;
 border-bottom-width: medium;
 border-color: black;
 text-align: center;
-top: 40px;
 color:black;
 border-bottom: 4px solid rgb(36, 34, 34);
 border-right: 4px solid rgb(88, 83, 83);
-height: 200px;
-
+height: 3rem;
 text-decoration: none;
-
-    @include breakpoint($celular_small){
-padding: 20px 10px 10px;
-width: 150px;
-font-size: 12px;
-margin: 0px auto;
-}
-        @include breakpoint($celular){
-padding: 20px 10px 10px;
-width: 150px;
-font-size: 13px;
-margin: 0px auto;
-}
-        @include breakpoint($tablet){
-padding: 20px 10px 10px;
-width: 70%;
-height: 60px;
-font-size: 14px;
-margin: 5px auto;    
-}
-        @include breakpoint($desk_normal){
-padding: 20px 10px 10px;          
-width: 80%; 
-font-size: 15px;
-margin: 10px auto; 
-}
-        @include breakpoint($desk_wide){
-padding: 20px 10px 10px;         
-width: 80%;
-font-size: 16px;
-margin: 10px auto;
-}
-
-
 &:active,  &:hover{
             background: $naranjo;
             color: $azul;
         }
 }
 #convocatoria {
+
+display: table-cell;
 background: white;
-height: 50px;
-width: 80%;
+height: 3rem;
 border-radius: 10px;
 color: black;
 border-bottom: 4px solid rgb(36, 34, 34);
 border-right: 4px solid rgb(88, 83, 83);
 text-align: center;
 text-decoration: none;
-font-size: 18px;
+
 vertical-align: middle;
-padding-top: 12px;
+padding-top: 5px;
 text-decoration: none;
-top:20px;
+top:5px;
 
 &:active,  &:hover{
             background: $naranjo;
@@ -493,6 +465,11 @@ font-family: Ubuntu;
         .ua-imagen {
         padding: 10px;
         width: 30%;
+        img, media {
+    height: auto;
+    max-width: 100%;
+    width: 100%;
+		}
         }
         .ua-resumen {
        	font-size: 1.2rem;
@@ -553,3 +530,6 @@ color: white;
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
 }
 }
+
+#edit-name{ width: 100%;}
+#description{width: 100%;}
