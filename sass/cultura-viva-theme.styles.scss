@@ -210,12 +210,15 @@ top:5px;
             border-radius: 0 0 5px 5px;
             text-decoration: none;
              left: -4rem;
-        a:active,  a:hover{
+        &:active,  &:hover{
             background: $amarillo;
             color: $rojo;
         }           
 
-}}
+}
+
+
+}
 .naranjo-cvc{
              color: $naranjo;
 }
