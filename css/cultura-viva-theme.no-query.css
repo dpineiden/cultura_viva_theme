@@ -239,10 +239,11 @@ body {
   .menu-central .menu-central-hijo {
     background: #ff6600;
     color: blue;
-    margin: 3px;
-    padding: 2px;
+    margin: 1px;
+    padding: 1px;
     border-radius: 0 0 5px 5px;
-    text-decoration: none; }
+    text-decoration: none;
+    left: -4rem; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/default\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003213}}
     .menu-central .menu-central-hijo a:active, .menu-central .menu-central-hijo a:hover {
       background: yellow;

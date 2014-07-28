@@ -205,15 +205,15 @@ top:5px;
 .menu-central-hijo{
             background: $naranjo;
             color: $azul;
-            margin: 3px;
-            padding: 2px;
+            margin: 1px;
+            padding: 1px;
             border-radius: 0 0 5px 5px;
             text-decoration: none;
-        a{
-            &:active,  &:hover{
+             left: -4rem;
+        a:active,  a:hover{
             background: $amarillo;
             color: $rojo;
-        } }           
+        }           
 
 }}
 .naranjo-cvc{
