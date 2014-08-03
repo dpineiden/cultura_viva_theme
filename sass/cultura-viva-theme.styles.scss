@@ -144,11 +144,9 @@ img{float:left;
 
 //menu de zona marca
 .menu-central{
-	display: table;
-    margin: 0 auto;
-    position: relative;
-    width: 80%;  
-    font-size: 1rem;  
+   	margin: 10px;
+    padding: 10px;
+    position: relative; 
     .sf-vertical, .sf-vertical li {
     width: 100%;
 }
@@ -166,6 +164,12 @@ border-bottom: 4px solid rgb(36, 34, 34);
 border-right: 4px solid rgb(88, 83, 83);
 height: 3rem;
 text-decoration: none;
+   	margin: 10px;
+    padding: 10px;
+    width: 15rem;
+    li{  
+    margin-bottom: 10px;
+    margin-top: 10px;}
 &:active,  &:hover{
             background: $naranjo;
             color: $azul;
@@ -195,7 +199,9 @@ vertical-align: middle;
 padding-top: 5px;
 text-decoration: none;
 top:5px;
-
+   	margin: 10px;
+    padding: 10px;
+    width: 15rem;
 &:active,  &:hover{
             background: $naranjo;
             color: $azul;
@@ -209,7 +215,7 @@ top:5px;
             padding: 1px;
             border-radius: 0 0 5px 5px;
             text-decoration: none;
-             left: -4rem;
+             left: 0rem;
         &:active,  &:hover{
             background: $amarillo;
             color: $rojo;
@@ -496,9 +502,11 @@ font-family: Ubuntu;
     display: none;
 }
 .search-block-form {
-    text-align: right;
-    margin: 10px;
-    padding: 20px;
+  float: right;
+  margin: 2px;
+  padding: 2px;
+  text-align: right;
+  width: 100%;
 }
 //Menu de contenidos
 #menu-583-4 {
@@ -545,3 +553,11 @@ color: white;
 #edit-name{ width: 100%;}
 #edit-pass{ width: 100%;}
 .description{width: 100%;}
+
+//nivo slider
+.views-nivo-slider-view.slider-wrapper.theme-dark {
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
