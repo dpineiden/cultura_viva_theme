@@ -182,8 +182,8 @@ body {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/default\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003137}}
     .l-cv-footer .footer-display img {
       float: left;
-      margin-left: 3rem;
-      margin-right: 3rem;
+      margin-left: 2rem;
+      margin-right: 2rem;
       display: inline-block;
       -webkit-transition-duration: 0.3s;
       transition-duration: 0.3s;
