@@ -164,7 +164,7 @@ img{float:left;
     width: 100%;
 }
 #formulario-inscripcion {
-display: table-cell;	
+display: block;	
 vertical-align: middle;
 position: relative;
 background-color: white;
@@ -177,7 +177,7 @@ border-bottom: 4px solid rgb(36, 34, 34);
 border-right: 4px solid rgb(88, 83, 83);
 height: 3rem;
 text-decoration: none;
-   	margin: 10px;
+   	margin: 10px auto;
     padding: 10px;
     width: 15rem;
     li{  
@@ -198,7 +198,7 @@ text-decoration: none;
 }
 #convocatoria {
 
-display: table-cell;
+display: block;
 background: white;
 height: 3rem;
 border-radius: 10px;
@@ -212,7 +212,7 @@ vertical-align: middle;
 padding-top: 5px;
 text-decoration: none;
 top:5px;
-   	margin: 10px;
+   	margin: 10px auto;
     padding: 10px;
     width: 15rem;
 &:active,  &:hover{
@@ -264,6 +264,7 @@ top:5px;
 
 .l-cv-slider {
 position: relative;
+.flexslider{z-index: -2;}
 }
 
 .js {
