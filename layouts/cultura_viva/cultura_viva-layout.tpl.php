@@ -52,9 +52,11 @@
   </div>
 
 
-  <footer class="l-cv-footer" role="Info Footer">
-    <?php print render($page['footer-0']); ?>
-    <?php print render($page['footer']); ?>
+  <footer class="l-cv-content-footer" role="Info Footer">
+  <div class="l-cv-nologo" role="No Logo">    
+    <?php print render($page['no_logo']); ?></div>
+    <div class="l-cv-footer" role="Footer">      
+    <?php print render($page['footer']); ?></div>
   </footer>  
 
 </div>

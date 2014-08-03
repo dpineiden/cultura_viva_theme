@@ -20,8 +20,24 @@ img, media {
   clear: none; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/default\/themes\/cultura_viva_theme\/sass\/layouts\/culturaviva\/_footer\.scss}line{font-family:\000031}}
-.l-cv-footer {
+.l-cv-content-footer {
   width: 65.95745%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/default\/themes\/cultura_viva_theme\/sass\/layouts\/culturaviva\/_footer\.scss}line{font-family:\000032}}
+.l-cv-nologo {
+  width: 100%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/default\/themes\/cultura_viva_theme\/sass\/layouts\/culturaviva\/_footer\.scss}line{font-family:\000033}}
+.l-cv-footer {
+  width: 100%;
   float: right;
   margin-left: 0;
   margin-right: 0;

@@ -1,1 +1,3 @@
-.l-cv-footer{ @include grid-span(8,5); }  
+.l-cv-content-footer{ @include grid-span(8,5); }  
+.l-cv-nologo{ @include grid-span(12,1); }  
+.l-cv-footer{ @include grid-span(12,1); }  
