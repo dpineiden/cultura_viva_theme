@@ -613,3 +613,7 @@ body {
   border-radius: 10px;
   margin-bottom: 10px;
   padding: 5px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/default\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003579}}
+.form-item input {
+  width: 100%; }
