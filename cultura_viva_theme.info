@@ -30,4 +30,5 @@ regions[help] = Ayuda
 regions[slider] = Slider
 regions[content] = Contenido
 regions[sidebar_first] = Barra Lateral
+regions[no_logo] = No Logo
 regions[footer] = Footer

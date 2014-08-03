@@ -10,6 +10,7 @@ regions[highlighted]    = Destacado
 regions[help]           = Ayuda
 regions[content]        = Contenido
 regions[sidebar_first] 	= Lateral
+regions[no_logo]        = No Logo
 regions[footer]         = Footer
 
 
