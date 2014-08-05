@@ -333,9 +333,9 @@ body {
 .l-cv-content {
   background: rgba(165, 199, 241, 0.9);
   border-radius: 20px;
-  padding: 1px;
   border-bottom: 5px solid black;
-  border-left: 3px solid gray; }
+  border-left: 3px solid gray;
+  padding: 10px; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/default\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003290}}
 .l-cv-region--breadcrumb {
