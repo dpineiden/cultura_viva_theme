@@ -53,7 +53,7 @@
 
 
   <footer class="l-cv-content-footer" role="Info Footer">
-  <div class="l-cv-nologo" role="No Logo">    
+  <div class="l-cv-content-footer{ @include grid-span(8,5); }  " role="No Logo">    
     <?php print render($page['no_logo']); ?></div>
     <div class="l-cv-footer" role="Footer">      
     <?php print render($page['footer']); ?></div>

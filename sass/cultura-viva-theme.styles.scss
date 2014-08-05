@@ -266,16 +266,17 @@ top:5px;
 
 .l-cv-slider {
 position: relative;
-.flexslider{z-index: -2;}
+.flexslider{z-index: 0;}
 }
 
 .js {
 font-family: Ubuntu;
 -ms-text-size-adjust: 100%;
-background: url(../images/fondo-web.png);
+background: url(../images/fondo.jpg);
 background-size: 100% auto;
 background-repeat: no-repeat;
 background-attachment: fixed;
+background-position: center bottom;
 }
 
 .l-cv-content {
