@@ -333,7 +333,7 @@ body {
 .l-cv-content {
   background: rgba(165, 199, 241, 0.9);
   border-radius: 20px;
-  padding: 50px;
+  padding: 1px;
   border-bottom: 5px solid black;
   border-left: 3px solid gray; }
 
