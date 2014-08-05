@@ -575,12 +575,12 @@ body {
   width: 100%; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/default\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003544}}
   #block-superfish-4 .menu-contenidos {
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
     background: none repeat scroll 0 0 rgba(45, 164, 211, 0.8);
     text-decoration: none;
     text-align: center;
-    padding-top: 24px;
+    padding-top: 35px;
     border-radius: 50%;
     color: white;
     font-family: Ubuntu;
