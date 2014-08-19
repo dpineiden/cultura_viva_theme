@@ -586,5 +586,8 @@ body {
       text-decoration: none;
       color: black; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/default\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003605}}
-  .t-4ejes-teaser .t-4ejes-resume {
+  .t-4ejes-teaser .t-4ejes-image {
     text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/default\/themes\/cultura_viva_theme\/sass\/cultura-viva-theme\.styles\.scss}line{font-family:\00003608}}
+  .t-4ejes-teaser .t-4ejes-resume {
+    text-align: justify; }
